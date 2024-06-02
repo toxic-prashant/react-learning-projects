@@ -10,13 +10,22 @@ function App() {
   // let counter = 15
 
   const addValue = () => {
-    setCounter(counter + 1)
+    if (counter < 20) {
+      setCounter(counter + 1)
+    } else {
+      console.log("counter reached there max limit!!")
+    }    
     // console.log("clicked", counter);
     // counter += 1;
   }
 
   const removeValue = () => {
-    setCounter(counter - 1)
+    if (counter > 0) {
+      setCounter(counter - 1)  
+    } else {
+      console.log("counter reached there min limit!!")
+    }
+    
     // console.log("clicked", counter);
   }
 
