@@ -1,33 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-
-  const [counter, setCounter] = useState(10)
+  const [counter, setCounter] = useState(10);
 
   // let counter = 15
 
   const addValue = () => {
     if (counter < 20) {
-      setCounter(counter + 1)
+      setCounter(counter + 1);
     } else {
-      console.log("counter reached there max limit!!")
-    }    
+      console.log("counter reached there max limit!!");
+    }
     // console.log("clicked", counter);
     // counter += 1;
-  }
+  };
 
   const removeValue = () => {
     if (counter > 0) {
-      setCounter(counter - 1)  
+      setCounter(counter - 1);
     } else {
-      console.log("counter reached there min limit!!")
+      console.log("counter reached there min limit!!");
     }
-    
+
     // console.log("clicked", counter);
-  }
+  };
 
   return (
     <>
@@ -38,7 +35,7 @@ function App() {
       <br />
       <button onClick={removeValue}>remove value</button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
