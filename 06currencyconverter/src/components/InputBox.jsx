@@ -13,6 +13,13 @@ function InputBox({
 }) {
   const amountInputId = useId();
 
+  const handleAmountChange = (e) => {
+    const newValue = e.target.value
+
+    const numberValue = newValue === "" ? "" : Number(newValue)
+    onAmountChange && onAmountChange(numberValue)
+  }
+
   return (
     <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
       <div className="w-1/2">
@@ -28,10 +35,11 @@ function InputBox({
           type="number"
           placeholder="Amount"
           disabled={amountDisable}
-          value={amount}
+          value={amount || ""}
           onChange={(e) =>
             onAmountChange && onAmountChange(Number(e.target.value))
           }
+          step="any"
         />
       </div>
       <div className="w-1/2 flex flex-wrap justify-end text-right">
@@ -42,11 +50,11 @@ function InputBox({
           disabled={currencyDisable}
           onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
         >
-          {currencyOptions.map((currency) => {
+          {currencyOptions.map((currency) => (
             <option key={currency} value={currency}>
               {currency}
-            </option>;
-          })}
+            </option>
+          ))}
         </select>
       </div>
     </div>
