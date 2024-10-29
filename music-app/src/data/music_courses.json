@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar for Beginners",
+      "slug": "guitar-for-beginners",
+      "description": "Learn the basics of playing the guitar from chords to strumming patterns.",
+      "price": 49.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar-beginners.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Piano Techniques",
+      "slug": "advanced-piano-techniques",
+      "description": "Master advanced techniques to enhance your piano playing.",
+      "price": 79.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true,
+      "image": "/courses/advanced-piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Vocal Training 101",
+      "slug": "vocal-training-101",
+      "description": "Develop your singing skills and learn proper vocal techniques.",
+      "price": 59.99,
+      "instructor": "Emily White",
+      "isFeatured": false,
+      "image": "/courses/vocal-training.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Music Theory Essentials",
+      "slug": "music-theory-essentials",
+      "description": "Understand the foundation of music theory including scales and harmony.",
+      "price": 39.99,
+      "instructor": "Michael Brown",
+      "isFeatured": false,
+      "image": "/courses/music-theory.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Jazz Improvisation",
+      "slug": "jazz-improvisation",
+      "description": "Learn how to improvise over jazz progressions and develop your style.",
+      "price": 69.99,
+      "instructor": "Sara Wilson",
+      "isFeatured": true,
+      "image": "/courses/jazz-improvisation.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Drumming Basics",
+      "slug": "drumming-basics",
+      "description": "Learn basic drumming techniques and rhythms to start your drumming journey.",
+      "price": 44.99,
+      "instructor": "Tom Baker",
+      "isFeatured": false,
+      "image": "/courses/drumming-basics.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Songwriting Masterclass",
+      "slug": "songwriting-masterclass",
+      "description": "Master the art of songwriting and create songs that resonate.",
+      "price": 89.99,
+      "instructor": "Anna Lee",
+      "isFeatured": true,
+      "image": "/courses/songwriting-masterclass.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Produce your own electronic music using industry-standard tools.",
+      "price": 99.99,
+      "instructor": "David Clark",
+      "isFeatured": true,
+      "image": "/courses/electronic-music.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Ukulele for Beginners",
+      "slug": "ukulele-for-beginners",
+      "description": "Start your musical journey with the ukulele, an easy and fun instrument.",
+      "price": 29.99,
+      "instructor": "Jessica Green",
+      "isFeatured": false,
+      "image": "/courses/ukulele-beginners.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Classical Music Appreciation",
+      "slug": "classical-music-appreciation",
+      "description": "Explore the world of classical music and understand its rich history.",
+      "price": 49.99,
+      "instructor": "Robert Evans",
+      "isFeatured": false,
+      "image": "/courses/classical-music.jpg"
+    }
+  ]
+}
